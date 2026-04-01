@@ -1,0 +1,24 @@
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named /usr/lib/aarch64-linux-gnu/libvulkan_freedreno.so
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named /usr/lib/aarch64-linux-gnu/libvulkan_freedreno.so
+[Vulkan Loader] DRIVER:         Searching for driver manifest files
+[Vulkan Loader] DRIVER:            In following locations:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:            Found the following files:
+[Vulkan Loader] DRIVER:               /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json
+[Vulkan Loader] DRIVER:         Found ICD manifest file /root/mesa-out/usr/share/vulkan/icd.d/freedreno_icd.aarch64.json, version 1.0.0
+[Vulkan Loader] DEBUG | DRIVER: Searching for ICD drivers named /usr/lib/aarch64-linux-gnu/libvulkan_freedreno.so
+ERROR: [Loader Message] Code 0 : setup_loader_term_phys_devs:  Failed to detect any valid GPUs in the current config
+[Vulkan Loader] ERROR:          setup_loader_term_phys_devs:  Failed to detect any valid GPUs in the current config
+ERROR at ./vulkaninfo/./vulkaninfo.h:247:vkEnumeratePhysicalDevices failed with ERROR_INITIALIZATION_FAILED
