@@ -3,10 +3,10 @@
 ## 📌 Overview
 This repository documents a deep-dive experimental attempt to compile and run Mesa with KGSL patches for Adreno 7xx GPUs inside a PRoot Ubuntu container on Android 14 (Samsung, No-Root). 
 
-The goal was to achieve hardware acceleration for Data Science and emulation tasks without voiding the device warranty.
+The goal was to achieve hardware acceleration.
 
 ## 🛠️ Environment Specs
-- **Device Setup:** Samsung Galaxy Tablet (Snapdragon processor with Adreno 7xx series GPU)
+- **Device Setup:** Samsung Galaxy  (Snapdragon processor with Adreno 7xx series GPU)
 - **OS Restrictions:** Android 14 (Strict SELinux/Knox enforcement)
 - **Linux Environment:** PRoot Ubuntu via Termux
 
