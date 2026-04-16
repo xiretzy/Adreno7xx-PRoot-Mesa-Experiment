@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حاسبة المعدل الجامعي</string>
+    <string name="title">حساب المعدل التراكمي (GPA)</string>
+    <string name="add_course">إضافة مادة</string>
+    <string name="calculate">احسب المعدل</string>
+    <string name="credits">الساعات</string>
+    <string name="enter_credits">أدخل عدد الساعات</string>
+    <string name="invalid_credits">قيمة ساعات غير صالحة</string>
+    <string name="no_data">أضف مواد ثم احسب المعدل</string>
+    <string name="gpa_result">المعدل: %.2f</string>
+</resources>

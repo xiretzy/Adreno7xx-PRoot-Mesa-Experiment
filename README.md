@@ -21,3 +21,23 @@ Execution fails at the `vkEnumeratePhysicalDevices` stage. Despite a flawless co
 `Failed to detect any valid GPUs in the current config`
 
 **Conclusion & Takeaway:** The issue is not with the drivers or the build process. Samsung's strict Knox/SELinux policies on Android 14 physically block the PRoot container from communicating directly with the hardware GPU node (`/dev/kgsl-3d0`). Until a bypass for this specific permission restriction is found, true no-root hardware acceleration remains impossible on this setup.
+
+---
+
+## 📱 University GPA Calculator APK
+
+Added a standalone Android app module (`app/`) to calculate university GPA.
+
+### Features
+- Add multiple courses
+- Select letter grade (A+, A, B+, B, C+, C, D, F)
+- Enter course credits
+- Calculate final GPA instantly
+
+### Build APK
+```bash
+./gradlew assembleDebug
+```
+
+Debug APK output:
+`app/build/outputs/apk/debug/app-debug.apk`
